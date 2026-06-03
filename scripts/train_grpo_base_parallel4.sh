@@ -27,7 +27,7 @@ if [ -z "${OPENAI_API_KEY:-}" ]; then
 fi
 
 export OPENAI_BASE_URL="${OPENAI_BASE_URL:-https://api.openai.com/v1}"
-export OPENAI_MODEL="${OPENAI_MODEL:-gpt-4o}"
+export OPENAI_MODEL="${OPENAI_MODEL:-gpt-5.4}"
 export W_QUALITY="${W_QUALITY:-0.7}"
 export W_CALIBRATION="${W_CALIBRATION:-0.3}"
 export CALIBRATION_GAMMA="${CALIBRATION_GAMMA:-2.0}"
