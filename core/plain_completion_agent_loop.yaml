@@ -1,0 +1,2 @@
+- name: plain_completion_agent
+  _target_: core.plain_completion_agent_loop.PlainCompletionAgentLoop

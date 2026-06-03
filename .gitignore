@@ -1,0 +1,35 @@
+# Secrets
+.judge_env
+.env
+*.env
+!*.example.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data and outputs
+core/data/*
+!core/data/
+!core/data/README.md
+outputs/
+logs/
+tensorboard_log/
+tensorboard_log_merged/
+*.log
+
+# Model/checkpoint artifacts
+checkpoints/
+global_step_*/
+actor_hf_merged/
+*.pt
+*.safetensors
+*.bin
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
