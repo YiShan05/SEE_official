@@ -92,7 +92,7 @@ Set the judge API and model paths:
 ```bash
 export OPENAI_API_KEY="your-openai-api-key"
 export OPENAI_BASE_URL="https://api.openai.com/v1"
-export OPENAI_MODEL="gpt-4o"
+export OPENAI_MODEL="gpt-5.4"
 
 export BASE_MODEL="/path/to/Qwen3-4B-Base"
 export PYTHON_BIN="$(which python)"
