@@ -35,7 +35,7 @@ if [ -z "${OPENAI_API_KEY:-}" ]; then
     exit 1
 fi
 export OPENAI_BASE_URL="${OPENAI_BASE_URL:-https://api.openai.com/v1}"
-export OPENAI_MODEL="${OPENAI_MODEL:-gpt-4o}"
+export OPENAI_MODEL="${OPENAI_MODEL:-gpt-5.4}"
 
 cleanup_ray() {
     mkdir -p "${RUN_DIR}"
