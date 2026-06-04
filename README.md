@@ -1,8 +1,11 @@
 # SEE: Self-Evaluation Elicitation
 
+[![arXiv](https://img.shields.io/badge/arXiv-2606.05122-b31b1b.svg)](https://arxiv.org/abs/2606.05122)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 This repository is the official implementation of **SEE** for the paper:
 
-**Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data**.
+**[Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data](https://arxiv.org/abs/2606.05122)**.
 
 SEE studies whether a base language model can predict how an external judge will score its own open-ended response. The central finding is that this ability is largely already present in the base model. SEE therefore treats self-evaluation as an elicitation problem rather than as a capability that must be learned from scratch.
 
@@ -128,3 +131,23 @@ This implementation is built on:
 
 - [verl](https://github.com/verl-project/verl) for distributed GRPO/RL post-training.
 - [vLLM](https://github.com/vllm-project/vllm) for efficient rollout generation.
+
+## Citation
+
+If you find SEE useful in your research, please consider citing our paper:
+
+```bibtex
+@misc{zhang2026see,
+      title={Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data},
+      author={XiuYu Zhang and Yi Shan and Junfeng Fang and Zhenkai Liang},
+      year={2026},
+      eprint={2606.05122},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.05122}
+}
+```
+
+## License
+
+This project is released under the [Apache 2.0 License](LICENSE).
